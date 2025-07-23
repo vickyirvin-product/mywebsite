@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Globe, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 function App() {
   return (
@@ -16,8 +16,6 @@ function App() {
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 mb-8 hover:bg-white/10 transition-all duration-300">
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
             <div className="flex items-center gap-3 text-white">
-              <Mail className="w-5 h-5 text-teal-400" />
-              <span className="text-lg">Get notified when I launch</span>
             </div>
             <div className="flex gap-2 w-full sm:w-auto">
               <input
@@ -34,12 +32,6 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="flex items-center justify-center gap-6 text-gray-400">
-          <Globe className="w-5 h-5" />
-          <span className="text-sm">www.vickyirvin.com</span>
-        </div>
-
-        {/* Floating Elements */}
         <div className="absolute top-20 left-20 w-20 h-20 bg-teal-500/20 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute bottom-20 right-20 w-32 h-32 bg-cyan-500/20 rounded-full blur-xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-10 w-16 h-16 bg-teal-600/20 rounded-full blur-xl animate-pulse delay-500"></div>
