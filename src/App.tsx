@@ -20,7 +20,7 @@ function App() {
             <div className="flex gap-2 w-full sm:w-auto">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Email"
                 className="flex-1 sm:w-64 px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all duration-200"
               />
               <button className="px-6 py-3 bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-lg hover:from-teal-600 hover:to-cyan-600 transition-all duration-200 flex items-center gap-2 whitespace-nowrap group">
