@@ -8,7 +8,7 @@ function App() {
         {/* Main Content */}
         <div className="animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-light text-white mb-12 tracking-tight">
-            Coming Soon
+            Coming Soon!
           </h1>
         </div>
 
