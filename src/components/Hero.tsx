@@ -13,6 +13,15 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-4 py-20 relative">
       <div className="max-w-4xl mx-auto text-center">
+        <div className="flex flex-col items-center mb-8 animate-fade-in">
+          <img
+            src="/1674073753279.jpeg"
+            alt="Vicky Irvin"
+            className="w-16 h-16 rounded-full object-cover border-2 border-teal-400/30 mb-3"
+          />
+          <p className="text-teal-300 text-sm font-medium">Vicky Irvin</p>
+        </div>
+
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white mb-6 tracking-tight animate-fade-in leading-tight">
           Flexible Product Leadership to Augment Your Team
         </h1>
