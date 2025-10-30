@@ -1,4 +1,4 @@
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Linkedin } from 'lucide-react';
 
 export default function Hero() {
   const handleBookCall = () => {
@@ -19,7 +19,18 @@ export default function Hero() {
             alt="Vicky Irvin"
             className="w-16 h-16 rounded-full object-cover border-2 border-teal-400/30 mb-3"
           />
-          <p className="text-teal-300 text-sm font-medium">Vicky Irvin</p>
+          <div className="flex items-center gap-2">
+            <p className="text-teal-300 text-sm font-medium">Vicky Irvin</p>
+            <a
+              href="https://www.linkedin.com/in/vickyirvin/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-400 hover:text-teal-300 transition-colors duration-200"
+              aria-label="LinkedIn profile"
+            >
+              <Linkedin size={14} />
+            </a>
+          </div>
         </div>
 
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white mb-6 tracking-tight animate-fade-in leading-tight">
