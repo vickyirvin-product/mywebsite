@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 
 export default function Hero() {
   const handleBookCall = () => {
-    window.location.href = 'mailto:contact@example.com?subject=Discovery Call Request';
+    window.open('https://calendly.com/vickyirvin/30-minute-meeting', '_blank');
   };
 
   const scrollToServices = () => {

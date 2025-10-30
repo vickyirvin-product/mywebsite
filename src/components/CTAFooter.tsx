@@ -2,7 +2,7 @@ import { Mail, ArrowRight } from 'lucide-react';
 
 export default function CTAFooter() {
   const handleBookCall = () => {
-    window.location.href = 'mailto:contact@example.com?subject=Discovery Call Request';
+    window.open('https://calendly.com/vickyirvin/30-minute-meeting', '_blank');
   };
 
   return (
@@ -36,7 +36,7 @@ export default function CTAFooter() {
         </div>
 
         <footer className="mt-12 text-center text-slate-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Fractional Product Leadership. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vicky Irvin. All rights reserved.</p>
         </footer>
       </div>
     </section>
