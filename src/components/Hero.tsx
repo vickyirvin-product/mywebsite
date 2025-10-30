@@ -25,10 +25,11 @@ export default function Hero() {
               href="https://www.linkedin.com/in/vickyirvin/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#0A66C2] hover:text-[#004182] transition-colors duration-200"
+              className="inline-flex items-center justify-center bg-[#0A66C2] hover:bg-[#004182] transition-colors duration-200 rounded"
+              style={{ width: '16px', height: '16px', padding: '2px' }}
               aria-label="LinkedIn profile"
             >
-              <Linkedin size={14} fill="#0A66C2" />
+              <Linkedin size={10} strokeWidth={2.5} className="text-white" />
             </a>
           </div>
         </div>
