@@ -43,7 +43,7 @@ export default function Hero() {
         </p>
 
         <p className="text-base md:text-lg text-teal-200/80 mb-10 max-w-2xl mx-auto animate-slide-up stagger-2">
-          I specialize in leading new product initiatives, helping companies explore fresh opportunities without pulling their core teams off critical work.
+          I specialize in driving new product opportunities by doing the legwork your team doesn't have bandwidth for—enabling them to contribute strategically without derailing current priorities.
         </p>
 
         <button
