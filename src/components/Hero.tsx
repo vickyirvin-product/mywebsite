@@ -39,7 +39,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-teal-100 mb-4 max-w-3xl mx-auto animate-slide-up stagger-1 leading-relaxed">
-          I partner with growth-stage SaaS companies as a hands-on fractional product leader—bringing deep experience from 0→1 and $8M→$35M scale.
+          I partner with growth-stage SaaS companies as a hands-on fractional product leader—bringing deep experience leading products from seed stage through $200M in ARR.
         </p>
 
         <p className="text-base md:text-lg text-teal-200/80 mb-10 max-w-2xl mx-auto animate-slide-up stagger-2">
