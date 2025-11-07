@@ -50,7 +50,7 @@ export default function Hero() {
           onClick={handleBookCall}
           className="animate-slide-up stagger-3 bg-teal-500 hover:bg-teal-400 text-slate-900 font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/50 focus:outline-none focus:ring-4 focus:ring-teal-400/50"
         >
-          Book a Discovery Call
+          Request Complimentary Consultation
         </button>
       </div>
 
